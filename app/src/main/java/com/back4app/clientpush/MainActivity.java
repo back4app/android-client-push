@@ -10,6 +10,9 @@ import com.parse.ParseInstallation;
 import com.parse.ParsePush;
 
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,14 +30,24 @@ public class MainActivity extends AppCompatActivity {
         installation.put("GCMSenderId", "790565434350");
         installation.put("channels", channels);
         installation.saveInBackground();
-        
+
         final Button client_push_button = findViewById(R.id.client_push_button);
         client_push_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                JSONObject data = new JSONObject();
+
+                try {
+                    data.put("alert", "Back4App Rocks!");
+                    data.put("title", "Hello from Device");
+                } catch ( JSONException e) {
+                    // should not happen
+                    throw new IllegalArgumentException("unexpected parsing error", e);
+                }
+
                 ParsePush push = new ParsePush();
                 push.setChannel("News");
-                push.setMessage("The Giants just scored! It's now 2-2 against the Mets.");
+                push.setData(data);
                 push.sendInBackground();
             }
         });
