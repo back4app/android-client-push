@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.back4app.clientpush"
-        minSdkVersion 27
+        minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
