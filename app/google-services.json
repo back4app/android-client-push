@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "790565434350",
+    "firebase_url": "https://androidpushnotification-9e8a8.firebaseio.com",
+    "project_id": "androidpushnotification-9e8a8",
+    "storage_bucket": "androidpushnotification-9e8a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790565434350:android:e2ea7045d84fdeff",
+        "android_client_info": {
+          "package_name": "com.example.back4app.pushnotificationviadashboardexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790565434350-bep1qttd314t1q0pmnf4kqdheqsl4hil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC89Zdl3FYj8yv_ICyVwIN9E-J8Vkj7xZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790565434350:android:b4d88c5bec491f6c",
+        "android_client_info": {
+          "package_name": "com.back4app.android_push_via_cloud_code"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790565434350-bep1qttd314t1q0pmnf4kqdheqsl4hil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC89Zdl3FYj8yv_ICyVwIN9E-J8Vkj7xZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790565434350:android:1ca81fa5e023ccd2",
+        "android_client_info": {
+          "package_name": "com.back4app.clientpush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790565434350-bep1qttd314t1q0pmnf4kqdheqsl4hil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC89Zdl3FYj8yv_ICyVwIN9E-J8Vkj7xZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
